@@ -7,3 +7,50 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ------------------------------------------------------------------------------- */
+
+.container{
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.debug{
+  border: 1px solid black;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/*------------------------------------ header--------------------------------- */
+
+header{
+  background-color: greenyellow;
+  height: 70px;
+}
+
+header .container{
+  height: 100%;
+  justify-content: space-between;
+}
+
+.logo{
+  align-items: center;
+}
+
+.menu{
+  align-items: center;
+}
+
+.menu nav ul li a{
+  padding-right: 50px;
+}
