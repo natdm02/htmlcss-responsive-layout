@@ -1,3 +1,17 @@
+:root{
+  --white:white;
+  --blue-pastel:rgb(81,103,121);
+  --red:red;
+  --sky-blue:rgb(0,119,252);
+  --black:rgba( 0,0,0,0.5);
+  --true-black:black;
+  --violet-blue:rgb(149,148,224);
+  --back-card:rgb(168,216,255);
+  --violet:rgb(139,133,223);
+  --free-blue:rgb(186, 183, 214);
+  --orange:rgb(255,184,86);
+  --black-footer:rgb(45,45,45);
+}
 
 * {
   padding: 0;
@@ -34,13 +48,13 @@ h3 {
 
 p {
 
-  color: rgb(81,103,121);
+  color: var(--blue-pastel);
   line-height: 25px;
 }
 
 .debug {
 
-  background-color: red;
+  background-color:var(--red);
 }
 
 div {
@@ -50,12 +64,12 @@ div {
 
 .wh {
 
-  background-color: white;
+  background-color: var(--white);
 }
 
 main {
 
-  background-color: rgb(149,148,224);
+  background-color: var(--blue-pastel);
 }
 
 section {
@@ -80,24 +94,24 @@ section {
 
   display: inline-block;
   text-align: center;
-  background-color: rgb(0,119,252);
+  background-color: var(--sky-blue);
   padding: 10px 60px;
 
 }
 
 .btn:hover {
 
-  background-color: rgba( 0,0,0,0.5);
-  translate: red 2s;
+  background-color: var(--black);
+  translate: var(--red) 2s;
 }
 
 /*-----------header----------*/
 
 header {
  
-  background-color: rgb(0,119,252);
+  background-color: var(--sky-blue);
   height: 80px;
-  color: white;
+  color: var(--white);
 
   z-index: 99;
   position: fixed;
@@ -118,7 +132,7 @@ nav {
 
 .logo a:link , .logo a:visited{
 
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -143,15 +157,15 @@ header ul a {
 
   margin-left: 20px;
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 
 
 header ul a:last-child {
 
-  color: black;
-  background-color: white;
+  color: var(--black);
+  background-color: var(--white);
 
   padding: 0px 20px;
   border-radius: 20px;
@@ -165,7 +179,7 @@ header ul a:last-child {
 }
 #svc h2 {
 
-  color: rgb(0,119,252);
+  color: var(--sky-blue);
   text-align: center;
 }
 
@@ -182,7 +196,7 @@ header ul a:last-child {
 .cards-icon {
 
   text-align: center;
-  color: rgb(0,119,252);
+  color: var(--sky-blue);
 
 }
 
@@ -191,7 +205,7 @@ header ul a:last-child {
 .btn-link {
 
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 .card i {
@@ -204,7 +218,7 @@ header ul a:last-child {
 
 .card {
 
-  background-color: rgb(168,216,255);
+  background-color: var(--back-card);
   margin: 20px 0px; 
 }
 
@@ -224,18 +238,14 @@ header ul a:last-child {
   align-items:  center;
   flex-direction: column;
   text-align: center;
-  color: white;
-
-  background-color:rgb(139,133,223);
+  color: var(--white);
+  background-color: var(--violet);
 }
 .tes-i {
 
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-
 }
 
 .tes-i img {
@@ -243,7 +253,6 @@ header ul a:last-child {
   height: 100%;
   width: 100%;
   object-fit: cover;
-
   border-radius: 50%;
 }
 
@@ -251,7 +260,6 @@ header ul a:last-child {
 
   width: 200px;
   height:200px;
-
   margin:auto;
 }
 
@@ -303,3 +311,255 @@ header ul a:last-child {
 
 }
 
+/*---strategic---*/
+
+#plan {
+
+  padding: 40px 0px 10px 0px;
+
+}
+
+.plan-ls:first-child {
+
+  color: var(--white);
+}
+
+.plan-ls:first-child p {
+
+  color: var(--white);
+  font-size: 14px;
+}
+
+.plan-ls.card {
+
+  background-color: var(--white);
+  text-align: center;
+}
+
+.plan-ls.card i {
+
+  font-size: 20px;
+  background-color: var(--violet);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.plan-ls p:last-child {
+
+  padding-bottom: 50px;
+}
+
+.plan-ls .cb-img {
+
+  width: 100%;
+  margin: 0;
+}
+
+/*------testimonials----*/
+
+#testimonial {
+
+  text-align: center;
+  padding: 40px 0px;
+}
+
+#testimonial .container h2 {
+
+  color: var(--violet);
+}
+
+.card .tes-d p i {
+
+  font-size: 15px;
+  margin: 10px;
+  display: inline;
+}
+
+.card .tes-d p {
+
+  color: var(--white);
+}
+
+/*-----------6 card benefit----------*/
+
+#with-us .container h1 {
+
+  margin-top: 20px;
+  color: var(--white);
+  text-align: center;
+}
+
+#with-us .card h2:first-child {
+
+  font-size: 70px;
+  color: var(--violet);
+}
+
+#with-us .card h2:nth-child(2) {
+
+  color: var(--violet);
+}
+
+#with-us .card p {
+
+  text-align: left;
+}
+
+#with-us .card .btn {
+
+  background-color: var(--white);
+}
+
+.wu-in .card {
+
+  background-color: var(--white);
+}
+
+/*------about------- */
+
+#about h2  {
+
+  color:var(--violet);
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  font-size: 30px;
+}
+
+#about .tes-i {
+
+  width: 250px;
+  height: 250px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+  position: relative;
+}
+
+#about .tes-i i {
+
+  position: absolute;
+  top:0;
+  right:0;
+  color: var(--violet);
+  font-size: 80px;
+}
+
+#about .p-big {
+
+  color: var(--violet);
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#about .btn {
+
+  background-color: var(--violet);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*----get started ----*/
+
+#free {
+
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#free h3 {
+
+  color: var(--free-blue);
+  font-size: 18px;
+}
+
+#free h2:nth-of-type(1) {
+
+  color: var(--white);
+  width: 80%;
+  margin: auto;
+}
+
+#free h2:nth-of-type(2) {
+
+  color: var(--orange);
+  font-size: 50px;
+}
+
+#free p {
+
+  color: var(--white);
+}
+
+#free .btn {
+
+  background-color: var(--white);
+  color: var(--violet);
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+}
+
+#free .copyright , .copyright a:visited , .copyright a:link {
+
+  color: var(--white);
+}
+
+.copyright ul {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  width: 80%;
+  margin: auto;
+}
+
+.copyright ul li {
+
+  margin-right: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+.copyright ul li:first-child {
+
+  list-style: none;
+}
+
+/*----footer----*/
+
+footer {
+
+  text-align: center;
+  color: var(--white);
+  background-color: var(--black-footer);
+  font-size: 0.8em;
+}
+
+footer .container {
+
+  width: 80%;
+  padding-top: 50px;
+}
+
+footer p {
+
+  padding-bottom: 50px;
+  color: var(--white);
+}
+
+footer p:nth-of-type(2) {
+
+  width: 70%;
+  margin: auto;
+}
+
+footer a:link , footer a:visited {
+
+  color: var(--violet);
+}
