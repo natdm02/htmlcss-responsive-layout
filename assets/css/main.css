@@ -563,3 +563,290 @@ footer a:link , footer a:visited {
 
   color: var(--violet);
 }
+
+/*----media query----*/
+
+/* tablet */
+
+@media screen and (min-width:588px) and (max-width: 997px) {
+
+  .cards {
+
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .cards .card {
+
+      margin: 10px;
+  }
+
+  .cr-2 .card {
+
+      width: calc(100% / 3 );
+      
+  }
+
+  .cr-1 {
+
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .cr-1 .card.big {
+
+      width: 70%;
+      text-align: left;
+  }
+
+
+  .cr-1 .card {
+
+      width: 33.3333%;
+  }
+
+  .cr-2 {
+
+      
+      display: flex;
+      flex-direction: row;
+  }
+
+  /*---------------------*/
+
+  .test-c.card {
+
+      flex-direction: row;
+      text-align: left;
+      font-size: 0.8em;
+  }
+
+  .tes-i {
+
+      width: 100px;
+      height: 100px;
+  
+  }
+
+  .test-c.card .tes-i{
+
+      width: 200px;
+      height:200px;
+      margin-right: 40px;
+  }
+
+
+  .card .tes-d p {
+
+      text-align:left;
+      color: white;
+  }
+
+/* ------------------------ */
+  
+  .wu-in {
+
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%
+  }
+
+  .wu-in .card {
+
+      width: calc( 100% / 2 - 20px );
+      margin: 10px;
+
+  }
+/* --------------------- */
+
+  .abt-in {
+
+      display: flex;
+  }
+
+  .abt-p {
+
+      width: 30%;
+  }
+
+  .abt-d {
+
+      width: 70%;
+  }
+
+  h1, h2, h3, h4 {
+
+      font-size: 1.5em;
+  }
+}
+
+/* computer */
+
+@media screen and ( min-width:998px) {
+
+  .nav-list {
+
+      display: block;
+  }
+
+  .mn-1 {
+
+      display: none;
+  }
+
+  .container {
+
+      width: 70%;
+  }
+
+  .cards {
+
+      display: flex;
+      flex-direction: column;
+
+      width: 100%;
+  }
+
+  .cards .card {
+
+      margin: 10px;
+  }
+
+  .cr-2 .card {
+
+      width: calc(100% / 3 );
+      
+  }
+
+  .cr-1 {
+
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .card.big {
+
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      padding-bottom: 0;
+      
+  }
+
+  .card.big .cb-in h2 {
+
+      text-align: left;
+      padding-top: 0px;
+  }
+
+  .card.big .cb-in {
+
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+
+  .cr-1 .card.big .cb-in:first-child {
+
+      width: 90%;
+  }
+
+  .cr-1 .card.big {
+
+    width: 70%;
+    text-align: left;
+  }
+
+  .cr-1 .card.big .cb-img {
+
+      width: 50%;
+  }
+
+  .cr-1 .card {
+
+      width: 33.3333%;
+  }
+
+  .cr-2 {
+
+      
+      display: flex;
+      flex-direction: row;
+  }
+
+
+  .in-plan {
+
+      display: flex;
+      align-items: flex-end;
+  }
+
+  .in-plan .card {
+
+      text-align: center;
+      height: 50%;
+  }
+
+  .plan-ls {
+
+      margin: 20px;
+      width: 100%;
+  }
+
+/* -------------------*/
+
+  .test-c.card {
+
+      flex-direction: row;
+      text-align: left;
+      font-size: 0.8em;
+  }
+
+  .test-c.card .tes-i{
+
+      width: 200px;
+      height:200px;
+  }
+
+/* --------------------- */
+
+  .wu-in {
+
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%
+  }
+
+  .wu-in .card {
+
+      width: calc(100% / 3 - 20px);
+      margin: 10px;
+  }
+/* -------------------- */
+
+  .abt-in {
+
+      display: flex;
+  }
+
+  .abt-p {
+
+      width: 30%;
+  }
+
+  .abt-d {
+
+      width: 70%;
+  }
+
+  h1, h2, h3 {
+
+      font-size: 1.5em;
+  }
+}
