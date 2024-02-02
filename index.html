@@ -3,38 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Macondo&family=Rajdhani:wght@300&family=Raleway:wght@600&family=Roboto+Condensed&display=swap" rel="stylesheet">
   <title>responsive-layout</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
+
 <body>
 
-<!----------header--------------->
-  <header>
+    <header>
 
-    <div class="container debug d-flex">
+      <nav>
 
-      <div class="logo debug d-flex">logo</div>
+        <div class="logo">
+            <a href="#"><h1>logo</h1></a>
+        </div>
 
-      <div class="menu debug d-flex">
+        <div class="mn-1">
+          <i class="fa-solid fa-bars"></i>
+        </div>
 
-        <nav>
-
-          <ul class="d-flex">
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-
+        <div class="nav-list">
+          <ul>
+            <a href="#plan"><li>Planning</li></a>
+            <a href="#testimonial"><li>Testimonials</li></a>
+            <a href="#with-us"><li>Features</li></a>
+            <a href="#about"><li>About us</li></a>
+            <a href="#free"><li>Get Started</li></a>
           </ul>
+        </div>
 
-        </nav>
+      </nav>
 
-        <button><a href="#">bottone</a></button>
+    </header>
 
-      </div>
+    <main>
+      <section id="svc" class="wh">
+            
+        <div class="container">
+            <div class="cards">
+                <div class="cr-1">
+                    
+                    <div class="card big">
 
-    </div>
-  </header>
+                        <div class="cb-in">
+                            <h2>Get a demo application</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic sint Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias reiciendis dignissimos saepe earum distinctio nihil recusandae quos facilis molestiae esse.</p>
+                            <a href="#" class="btn-link"><div class="btn"><i class="fa-brands fa-apple"></i>App Store</div></a>
+                        </div>
+
+                            <div class="cb-in cb-img">
+                                <img src="assets/img/phone.png" alt="vecotr smartphone">
+                            </div>
+                        
+
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-file-code cards-icon"></i>
+                        <h2>Clean Code</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic sint</p>
+                    </div>
+                </div>
+
+                <div class="cr-2">
+                    <div class="card">
+                        <i class="fa-solid fa-compass-drafting cards-icon"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic sint</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-laptop-code cards-icon"></i>
+                        <h2>Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic sint</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-bullhorn cards-icon"></i>
+                        <h2>Branding</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic sint</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
   
+
+    </main>
+
+<footer></footer>
+
 </body>
 </html>

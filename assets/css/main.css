@@ -1,0 +1,305 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  scroll-behavior: smooth;
+}
+/* ------- */
+
+/*-----------------------generali---------------- */
+
+h2, h3, h4, h5, h6, p, div {
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  margin: 20px 0px;
+
+}
+
+
+h1 {
+
+  font-family: 'Raleway', sans-serif;
+}
+
+
+h3 {
+
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+p {
+
+  color: rgb(81,103,121);
+  line-height: 25px;
+}
+
+.debug {
+
+  background-color: red;
+}
+
+div {
+
+  border-radius: 20px;
+}
+
+.wh {
+
+  background-color: white;
+}
+
+main {
+
+  background-color: rgb(149,148,224);
+}
+
+section {
+
+  width: 100%;
+}
+
+
+.container {
+
+  width: 80%;
+  margin: auto;
+
+}
+
+.card {
+
+  padding: 20px;
+}
+
+.btn {
+
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(0,119,252);
+  padding: 10px 60px;
+
+}
+
+.btn:hover {
+
+  background-color: rgba( 0,0,0,0.5);
+  translate: red 2s;
+}
+
+/*-----------header----------*/
+
+header {
+ 
+  background-color: rgb(0,119,252);
+  height: 80px;
+  color: white;
+
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+nav {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  line-height: 40px;
+  width: 100%;
+}
+
+.logo a:link , .logo a:visited{
+
+  color: white;
+  text-decoration: none;
+}
+
+.mn-1 {
+
+  font-size: 30px;
+}
+.nav-list {
+
+  display: none;
+}
+header ul {
+
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+
+}
+
+header ul a {
+
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+header ul a:last-child {
+
+  color: black;
+  background-color: white;
+
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+/*----------fine header------ */
+
+#svc {
+
+  padding-top: 80px;
+}
+#svc h2 {
+
+  color: rgb(0,119,252);
+  text-align: center;
+}
+
+.card p {
+
+  text-align: center;
+}
+
+.card.big p {
+
+  text-align: start;
+}
+
+.cards-icon {
+
+  text-align: center;
+  color: rgb(0,119,252);
+
+}
+
+
+
+.btn-link {
+
+  text-decoration: none;
+  color: white;
+}
+
+.card i {
+
+  font-size: 75px;
+  display: block;
+  margin: auto;
+}
+
+
+.card {
+
+  background-color: rgb(168,216,255);
+  margin: 20px 0px; 
+}
+
+.cards {
+
+  padding: 25px 0px;
+}
+
+.cb-img {
+
+  height: 200px;
+}
+
+.test-c.card {
+
+  display: flex;
+  align-items:  center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+
+  background-color:rgb(139,133,223);
+}
+.tes-i {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.tes-i img {
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+.test-c.card .tes-i{
+
+  width: 200px;
+  height:200px;
+
+  margin:auto;
+}
+
+.test-c.card .tes-d {
+
+  width: 70%;
+}
+
+.btn-link i {
+
+  font-size: 15px;
+  display: inline;
+  margin-right: 10px;
+}
+
+.cb-in.cb-img img {
+
+  object-fit: contain;
+  height: 100%;
+  
+}
+
+.plan-ls.card .cb-img img , .plan-ls .cb-img img {
+
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.plan-ls.card .cb-img, .plan-ls .cb-img {
+
+  width: 50%;
+  height: 50%;
+  margin: auto;
+
+
+}
+.card.big {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0px;   
+}
+
+.cb-in.cb-img {
+
+  margin-bottom: 0px;
+
+}
+
